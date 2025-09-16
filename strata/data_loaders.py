@@ -21,6 +21,26 @@ For putting together as CSV
 * construct pandas dataframe
 * dataframe to CSV
 
+
+
+Can use CCP's own formats for their methodology (typically CSV files)
+Or OpenGamma's standard formats (Trades, Positions) serialized as XML or JSON
+
+Portfolio Formats
+* Standard OTC CSV
+* Standard Sensitivity CSV
+* OpenGamma Strata
+* FpML
+* LCH OTC
+* Eurex OTC
+* Eurex ETD
+* CME OTC
+* CME ETD
+* JSCC OTC
+* SPAN
+* SIMM
+
+
 '''
 
 @dataclass

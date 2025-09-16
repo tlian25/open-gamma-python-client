@@ -13,8 +13,7 @@ class OpenGammaCCP(StrEnum):
     CME = auto()
     JSCC = auto()
     SPAN = auto()
-    ISDA_SIMM = auto()
-
+    SIMM = auto()
 
 
 # Portfolio formats
